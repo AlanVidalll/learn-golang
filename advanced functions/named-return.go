@@ -7,11 +7,11 @@ func calculated(n1, n2 int) (sum int, subtraction int) {
 	subtraction = n1 - n2
 
 	return
-
 }
 
 func main() {
-	sum, subtraction := calculated(10, 5)
 	fmt.Println("Funções nomeadas")
+	
+	sum, subtraction := calculated(10, 5)
 	fmt.Println(sum, subtraction)
 }
